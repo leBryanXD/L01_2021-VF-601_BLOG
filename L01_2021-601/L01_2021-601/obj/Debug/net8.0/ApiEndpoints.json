@@ -1,0 +1,285 @@
+[
+  {
+    "ContainingType": "L01_2021_601.Controllers.ComentariosControl",
+    "Method": "EliminarEqipo",
+    "RelativePath": "api/ComentariosControl/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.ComentariosControl",
+    "Method": "Get",
+    "RelativePath": "api/ComentariosControl/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.ComentariosControl",
+    "Method": "GuardarComentario",
+    "RelativePath": "api/ComentariosControl/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarios",
+        "Type": "L01_2021_601.Models.Comentarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.ComentariosControl",
+    "Method": "ActualizarComentario",
+    "RelativePath": "api/ComentariosControl/Put",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioAmodificar",
+        "Type": "L01_2021_601.Models.Comentarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.ComentariosControl",
+    "Method": "ObtenerComentariosPorUsuario",
+    "RelativePath": "api/ComentariosControl/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[L01_2021_601.Models.Comentarios, L01_2021-601, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.PublicacionesControl",
+    "Method": "FindByUser",
+    "RelativePath": "api/PublicacionesControl/BUSCAR POR USUARIO ESPECIFICO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.PublicacionesControl",
+    "Method": "EliminarPublicacion",
+    "RelativePath": "api/PublicacionesControl/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.PublicacionesControl",
+    "Method": "Get",
+    "RelativePath": "api/PublicacionesControl/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.PublicacionesControl",
+    "Method": "GuardarPublicacion",
+    "RelativePath": "api/PublicacionesControl/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publicaciones",
+        "Type": "L01_2021_601.Models.Publicaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.PublicacionesControl",
+    "Method": "ActualizarPublicacion",
+    "RelativePath": "api/PublicacionesControl/Put",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "publicacionModificar",
+        "Type": "L01_2021_601.Models.Publicaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.UsuariosControl",
+    "Method": "Get",
+    "RelativePath": "api/UsuariosControl/BUSCANDO POR ROL ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.UsuariosControl",
+    "Method": "FindByName",
+    "RelativePath": "api/UsuariosControl/BUSCAR POR NOMBRE Y APELLIDO",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.UsuariosControl",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/UsuariosControl/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.UsuariosControl",
+    "Method": "Get",
+    "RelativePath": "api/UsuariosControl/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.UsuariosControl",
+    "Method": "GuardarUsuario",
+    "RelativePath": "api/UsuariosControl/Post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarios",
+        "Type": "L01_2021_601.Models.Usuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.UsuariosControl",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/UsuariosControl/Put",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioAmodificar",
+        "Type": "L01_2021_601.Models.Usuarios",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "L01_2021_601.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[L01_2021_601.WeatherForecast, L01_2021-601, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
